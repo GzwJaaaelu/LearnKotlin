@@ -8,14 +8,13 @@ class Girl constructor(age: Int, name: String) : Human(age, name)
 
 //  : 表示继承，继承自 Human
 class Boy(age: Int, name: String) : Human(age, name) {
-     fun haveGirlFriend(): Boolean {
-         return true;
-     }
+    fun haveGirlFriend(): Boolean {
+        return true;
+    }
 }
 
 //  默认为 final,无法继承
 //  所有 Kotlin 的类都之间或者间接的继承自 Any
-
 
 open class Human(var age: Int, var name: String) {
     //  构造方法的方法体
@@ -38,7 +37,7 @@ fun main(args: Array<String>) {
     val baby: Human = Human(1, "baby")
     //  as 相当于强制类型转换
     //  as? 相当于安全的强制类型转换，如果不能转换则不转换，但是接收类型也必须为 ?
-    val realBaby:Boy? = baby as? Boy
+    val realBaby: Boy? = baby as? Boy
     println(realBaby)
 }
 
