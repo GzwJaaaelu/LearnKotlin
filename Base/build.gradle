@@ -1,8 +1,15 @@
 group 'com.gzw.kotlin'
 version '1.0-SNAPSHOT'
 
+//  配置这两句可以用来生成可执行文件
+apply plugin: 'application'
+//  声明是生成哪个文件的可以执行文件
+//  然后右侧 Gradle 点击刷新，找到生成 distribution
+//  点击下面的 installDist 去左侧 build 文件夹下找 install 再找到 bin 目录即可
+mainClassName = 'com.gzw.kotlin.CalcDemoKt'
+
 buildscript {
-    ext.kotlin_version = '1.1.4-release-IJ2017.2-1'
+    ext.kotlin_version = '1.1.4-3'
 
     repositories {
         mavenCentral()
