@@ -14,29 +14,29 @@ fun main(args: Array<String>) {
 //    println(sumAndPrint.invoke(1,4))
 
     //  遍历方式一
-    for(i in args) {
+    for (i in args) {
         print(i)
     }
 
     println("")
 
     //  遍历方式二 也相当于是这样
-    args.forEach ({it ->  print(it)})
+    args.forEach({ it -> print(it) })
 
     println("")
 
     //  遍历方式二 也相当于是这样
-    args.forEach ({print(it)})
+    args.forEach({ print(it) })
 
     println("")
 
     //  遍历方式二 也相当于是这样
-    args.forEach (){print(it)}
+    args.forEach() { print(it) }
 
     println("")
 
     //  遍历方式二
-    args.forEach ForEach@{
+    args.forEach ForEach@ {
         if (it == "z") {
 //            //  这是相当于返回 main 函数
 //            return

@@ -1,4 +1,4 @@
-package com.gzw.kotlin.javaDontHave
+package com.gzw.kotlin.someNew
 
 /**
  * Created by jilinlin on 2017/8/6.

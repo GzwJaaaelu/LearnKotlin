@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
         val arg1 = args[0].toInt()
         val arg2 = args[1].toInt()
         println("返回？")
-        println("$arg1 + $arg2 = ${sumArg(arg1,arg2)}")
+        println("$arg1 + $arg2 = ${sumArg(arg1, arg2)}")
         println("返回")
     } catch (e: NumberFormatException) {
         println("您确定您输入的整数么？")

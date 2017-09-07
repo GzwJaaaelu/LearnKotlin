@@ -1,32 +1,32 @@
-package com.gzw.kotlin.javaDontHave
+package com.gzw.kotlin.someNew
 
 class Complex(var real: Double, var imaginary: Double) {
 
     /**
      * 正常重载
      */
-    operator fun plus (other: Complex): Complex {
+    operator fun plus(other: Complex): Complex {
         return Complex(real + other.real, imaginary + other.imaginary)
     }
 
     /**
      * 传入任意类型
      */
-    operator fun plus (other: Int): Complex {
+    operator fun plus(other: Int): Complex {
         return Complex(real + other, imaginary)
     }
 
     /**
      * 返回任意类型
      */
-    operator fun plus (other: Any): String {
+    operator fun plus(other: Any): String {
         return "$real + $other"
     }
 
     /**
      * 重写 () 方法
      */
-    operator fun invoke(): Double{
+    operator fun invoke(): Double {
         //  取模运行
         return Math.hypot(real, imaginary)
     }
@@ -40,7 +40,7 @@ class Book {
     /**
      * infix 中缀表达式，类似运算符
      */
-    infix fun on(any: Any): Boolean{
+    infix fun on(any: Any): Boolean {
         return false
     }
 }

@@ -1,6 +1,6 @@
 package com.gzw.kotlin.base
 
-import com.gzw.kotlin.javaDontHave.Book
+import com.gzw.kotlin.someNew.Book
 
 class StoryBook {
 

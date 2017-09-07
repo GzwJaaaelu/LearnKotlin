@@ -7,12 +7,12 @@ fun main(args: Array<String>) {
     }
 
     //  带下标的 for 循环
-    for((index, value) in args.withIndex()) {
+    for ((index, value) in args.withIndex()) {
         println("$index -> $value")
     }
 
     //  第二个其实也是 写法如下
-    for(indexedValue in args.withIndex()) {
+    for (indexedValue in args.withIndex()) {
         println("${indexedValue.index} -> ${indexedValue.value}")
     }
 
@@ -36,9 +36,9 @@ fun main(args: Array<String>) {
     }
 
     //  多层循环
-    Out@for(arg in args) {
+    Out@ for (arg in args) {
         println(arg)
-        Inner@for(int in list) {
+        Inner@ for (int in list) {
             println(int)
             if (int == 2) {
                 //  跳出 Out
