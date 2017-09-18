@@ -4,7 +4,7 @@ class Country(val name: String)
 
 //  data class 类似于 Java 中的 JavaBean，但不能充当 JavaBean 使用
 //  data class 有一些缺点：其实它是 final 的 class，且没有那个无参的构造
-//  不过上面的缺点可以插件解决
+//  不过上面的缺点可以插件解决（noarg、allopen）
 
 //  用 data 修饰，表示数据类，会自动帮你重写一些方法，如 toString、copy、hashCode、equals 等
 data class DateCountry(val name: String)
