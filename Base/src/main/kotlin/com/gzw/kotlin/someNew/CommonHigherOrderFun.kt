@@ -1,4 +1,4 @@
-package com.learn.kotlin
+package com.gzw.kotlin.someNew
 
 //  常见高阶函数
 //  foreach
@@ -64,6 +64,20 @@ fun main(args: Array<String>) {
     println((0..6).map(::factorial).fold(StringBuilder()) { acc, i ->
         acc.append(i).append("/")
     })
+
+    //  倒着来，不过 acc 和 i 的位置换了
+    println((0..6).map(::factorial).foldRight(StringBuilder()) { i, acc ->
+        acc.append(i).append("/")
+    })
+
+    //  阶乘保留奇数
+    println((0..6).map(::factorial).filter { it % 2 == 1 })
+    //  阶乘保留处在奇数位上的
+    println((0..6).map(::factorial).filterIndexed { index, i -> index % 2 == 1 })
+    //  阶乘然后一直取结果，直到拿到了不符合条件的就停止，然后保留这个前面所有的结果
+    //  只取 == 1 的
+    println((0..6).map(::factorial).takeWhile { it % 2 == 1 })
+
 }
 
 fun factorial(n: Int): Int {
