@@ -6,7 +6,7 @@ apply plugin: 'application'
 //  声明是生成哪个文件的可以执行文件
 //  然后右侧 Gradle 点击刷新，找到生成 distribution
 //  点击下面的 installDist 去左侧 build 文件夹下找 install 再找到 bin 目录即可
-mainClassName = 'com.gzw.kotlin.CalcDemoKt'
+mainClassName = 'com.kotlin.in.mooc.demo.CalcDemoKt'
 
 buildscript {
     ext.kotlin_version = '1.1.4-3'
