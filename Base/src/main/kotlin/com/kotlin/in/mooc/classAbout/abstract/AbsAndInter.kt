@@ -71,6 +71,6 @@ class BB : B {
 fun main(args: Array<String>) {
     //  表示 BB 也就是 B （可以充当 B 使用）
     //  也叫向上转型
-    val b:B = BB()
+    val b: B = BB()
 
 }

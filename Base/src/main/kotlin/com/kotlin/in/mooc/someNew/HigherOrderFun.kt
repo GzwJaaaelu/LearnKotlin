@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
 }
 
 class PDFPrintln() {
-    fun println(any:Any) {
+    fun println(any: Any) {
         //  这就引用到我们经常使用到的 println
         kotlin.io.println(any)
     }

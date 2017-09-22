@@ -26,25 +26,25 @@ fun main(args: Array<String>) {
     println(name)
 
     val component = ComponentX()
-    val (a,b,c,d) = component
+    val (a, b, c, d) = component
     println("$a$b$c$d")
 }
 
 //  自己重写 componentN 的操作符
 class ComponentX {
-    operator fun component1():String {
+    operator fun component1(): String {
         return "您好，我是"
     }
 
-    operator fun component2():Int {
+    operator fun component2(): Int {
         return 110
     }
 
-    operator fun component3():String {
+    operator fun component3(): String {
         return "，请问有什么"
     }
 
-    operator fun component4():String {
+    operator fun component4(): String {
         return "可以帮助您的么？"
     }
 }

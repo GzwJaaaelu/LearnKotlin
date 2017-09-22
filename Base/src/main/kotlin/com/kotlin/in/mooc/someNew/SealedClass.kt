@@ -29,7 +29,7 @@ class Other() : PlayerCmd()
 
 //  所以这里可以看出，表示状态的用枚举比较合适
 //  表示指令可以选择密封类
-enum class Play{
+enum class Play {
     IDLE,
     PAUSE,
     PLAYING

@@ -37,7 +37,7 @@ fun findTreeNode(root: TreeNode?, value: Int): TreeNode? {
     if (root.value == value) return root
     //  左边没有查右边
     //  这里不算尾递归
-    return findTreeNode(root.left, value)?: return findTreeNode(root.right, value)
+    return findTreeNode(root.left, value) ?: return findTreeNode(root.right, value)
 }
 
 fun main(args: Array<String>) {

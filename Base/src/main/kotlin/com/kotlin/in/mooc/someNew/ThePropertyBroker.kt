@@ -39,7 +39,7 @@ class Y {
     }
 
     //  自定义的代理，这里只代理了 String
-    operator fun setValue(thisRef: Any?, property: KProperty<*>, value:String) {
+    operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
         println("setValue: $thisRef- > ${property.name}")
         this.value = value
     }

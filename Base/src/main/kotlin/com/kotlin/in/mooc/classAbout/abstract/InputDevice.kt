@@ -13,7 +13,7 @@ interface BLEInputDevice : InputDevice
 
 //  抽象类相当于半成品
 
-abstract class USBMouse(val name:String) : USBInputDevice {
+abstract class USBMouse(val name: String) : USBInputDevice {
 
     //  override 表示重写
     override fun input(event: Any) {

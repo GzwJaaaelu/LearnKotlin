@@ -3,7 +3,7 @@ package com.kotlin.`in`.mooc.someNew
 import java.io.BufferedReader
 import java.io.FileReader
 
-data class Person(val name:String, val age:Int) {
+data class Person(val name: String, val age: Int) {
 
     fun work() {
         println("$name is working")
@@ -62,10 +62,10 @@ fun main(args: Array<String>) {
     //  使用 ues 后他接收一个实现了 Closeable 的类
     //  并且会在使用结束后自动帮我们调用 close
     BufferedReader(FileReader("hello.txt")).use {
-        var content:String?
+        var content: String?
         while (true) {
             //  这里需要添加 it
-            content = it.readLine()?:break
+            content = it.readLine() ?: break
             println(content)
         }
     }
