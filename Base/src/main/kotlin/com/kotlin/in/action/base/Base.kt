@@ -1,5 +1,10 @@
 package com.kotlin.`in`.action.base
 
+import com.kotlin.`in`.action.funcy.MAX
+import com.kotlin.`in`.action.funcy.joinToString
+import com.kotlin.`in`.action.funcy.lastChar
+
+
 //  在 Kotlin 中，if 是表达式，而不是语句。表达式与语句的区别在于，表达式有值，且能作为另一个表达式的一部分使用
 
 fun max(a: Int, b: Int): Int {
@@ -39,4 +44,9 @@ fun main(args: Array<String>) {
     println("\$name")
     //  ${ 里面可以放各种表达式 }
     println("Hello ${if (args.isNotEmpty()) args[0] else "Kotlin"} !")
+
+    println("${joinToString()} + $MAX")
+
+    //  这里使用别的包下的定义的扩展函数需要导入
+    println("Gzw".lastChar())
 }
