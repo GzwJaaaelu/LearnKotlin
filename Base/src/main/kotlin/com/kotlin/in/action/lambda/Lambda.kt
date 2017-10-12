@@ -1,10 +1,7 @@
 package com.kotlin.`in`.action.lambda
 
-import com.kotlin.`in`.action.base.max
-
-
 //  Lambda 表达式本质上就是可以传递给其他函数的一小段代码（作为函数参数的代码块）
-//  函数式表层提供饿了另一种解决方案：把函数作为值来看待
+//  函数式表层提供了另一种解决方案：把函数作为值来看待
 //  这样可以直接传递函数，而不是先声明一个类再传递这个类（或匿名内部类）
 
 data class Person(val name: String, val age: Int)
