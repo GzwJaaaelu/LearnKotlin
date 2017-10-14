@@ -12,4 +12,13 @@ public class View {
         this.listener = listener;
         listener.onClick(this);
     }
+
+    protected void postDelay(long ms, Runnable r) {
+        try {
+            Thread.sleep(ms);
+            r.run();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
