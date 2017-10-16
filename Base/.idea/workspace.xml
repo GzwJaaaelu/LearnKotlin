@@ -47,82 +47,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UseLambdaWithJava.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/UseLambdaWithJava.kt">
+      <file leaf-file-name="Nullable.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/Nullable.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="437">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="With&amp;Apply.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/With&amp;Apply.kt">
+      <file leaf-file-name="SafeCast.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/SafeCast.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="第五章小结" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/第五章小结">
+      <file leaf-file-name="Intrinsics.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/text/StringBuilder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Standard.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/util/Standard.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UseLambdaWithJava.decompiled.java" pinned="false" current-in-tab="false">
-        <entry file="dummy://kotlinDecompiled/UseLambdaWithJava.decompiled.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/Button.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="475">
+              <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -574,8 +527,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/classAbout/abstract/AbsAndInter.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/classAbout/abstract/InputDevice.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/CompositeFunction.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/funcy/CreateCollection.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/sss.java" />
@@ -625,6 +576,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/UseLambdaWithJava.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/With&amp;Apply.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/第五章小结" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/SafeCast.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/Nullable.kt" />
       </list>
     </option>
   </component>
@@ -662,9 +615,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -715,7 +667,7 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="in" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="funcy" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C1" type="b2602c69:ProjectViewProjectNode" />
@@ -724,13 +676,13 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="in" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -765,7 +717,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.kotlin.in.action.lambda.With_ApplyKt">
+  <component name="RunManager" selected="Kotlin.com.kotlin.in.action.kotlin.NullableKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -858,6 +810,18 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="com.kotlin.in.action.kotlin.NullableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.in.action.kotlin.NullableKt" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="C1_main" />
+      <envs />
+    </configuration>
     <configuration name="com.kotlin.in.action.lambda.SequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.kotlin.in.action.lambda.SequenceKt" />
@@ -906,32 +870,20 @@
       <module name="C1_main" />
       <envs />
     </configuration>
-    <configuration name="com.kotlin.in.action.lambda.collectionLambda.GroupByKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.in.action.lambda.collectionLambda.GroupByKt" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="C1_main" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.GroupByKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.FlatMap_FlattenKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.SequenceKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.UseLambdaWithJavaKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.With_ApplyKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.FlatMap_FlattenKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.SequenceKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.UseLambdaWithJavaKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.With_ApplyKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.kotlin.NullableKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.With_ApplyKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.UseLambdaWithJavaKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.SequenceKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.FlatMap_FlattenKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.GroupByKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.kotlin.NullableKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.With_ApplyKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.UseLambdaWithJavaKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.SequenceKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.com.kotlin.in.action.lambda.collectionLambda.FlatMap_FlattenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -980,32 +932,43 @@
       <workItem from="1507883787397" duration="881000" />
       <workItem from="1507884765966" duration="8781000" />
       <workItem from="1507945068013" duration="17563000" />
+      <workItem from="1508122568092" duration="4941000" />
+      <workItem from="1508135701010" duration="7042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156597000" />
+    <option name="totallyTimeSpent" value="168580000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31183368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1016,12 +979,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1045,24 +1008,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/classAndInterface/Delegate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/someNew/Currying.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#38#134#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/CompositeFunction.kt" />
     <entry file="jar://D:/Java/jdk1.8.0_141/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1239,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19475">
           <caret line="1025" column="75" lean-forward="false" selection-start-line="1025" selection-start-column="75" selection-end-line="1025" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22268">
           <caret line="1172" column="35" lean-forward="false" selection-start-line="1172" selection-start-column="35" selection-end-line="1172" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5073">
           <caret line="267" column="3" lean-forward="false" selection-start-line="267" selection-start-column="3" selection-end-line="267" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="905" column="37" lean-forward="true" selection-start-line="905" selection-start-column="37" selection-end-line="905" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="33" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="79" column="97" lean-forward="true" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,15 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/UseLambdaWithJava.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,9 +1311,8 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/util/Standard.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="418">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,13 +1320,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/With&amp;Apply.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="1444">
           <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
           <folding />
         </state>
@@ -1414,7 +1334,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/第五章小结">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/UseLambdaWithJava.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/SafeCast.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/kotlin/Nullable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
         </state>
       </provider>
