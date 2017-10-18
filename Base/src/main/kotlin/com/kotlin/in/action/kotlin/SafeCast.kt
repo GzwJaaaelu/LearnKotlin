@@ -2,6 +2,11 @@ package com.kotlin.`in`.action.kotlin
 
 //  安全转换 as?
 
+class MyTest {
+    //  延迟初始化非空的变量
+    private lateinit var m: String
+}
+
 class Person(val name: String) {
 
     override fun equals(other: Any?): Boolean {

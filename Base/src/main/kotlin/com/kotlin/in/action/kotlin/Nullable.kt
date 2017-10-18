@@ -1,5 +1,11 @@
 package com.kotlin.`in`.action.kotlin
 
+import com.kotlin.`in`.action.lambda.Person
+import com.kotlin.`in`.action.lambda.sendEmail
+
+//  安全的处理方式有 ?. ?: as?
+//  非安全的处理方式有 !!
+
 //  String = String，不能存储 null 引用
 //  所以默认情况下类型都是非空的
 fun strLen(s: String) = s.length
@@ -29,5 +35,36 @@ fun main(args: Array<String>) {
     println(strLenCanNullNoException(null))
     println(strLenCanNullNoExceptionAndWithDefault(null))
     println(strLenCanNullNoExceptionAndWithDefault(null))
-    println(strLenThrowException(null))
+//    println(strLenThrowException(null))
+
+    val p: Person? = Person("Gzw", 23)
+    //  sendEmail 接收一个非空类型的 Person，所以需要先进行空判断，判断通过再继续
+    if (p != null) sendEmail(p, "啦啦啦啦啦啦")
+    //  还可以使用另一种方式 let
+    //  如果 p 不为空，那么 it 就不为空，如果 p 为空什么都不会发生
+    //  这里必须是 ?. 的调用方式，否则会报错
+    p?.let { sendEmail(it, "，，，，，") }
+
+    val s: String? = null
+    println(s.isNullOrBlank())
+
+    //  T 被推导为 Any?
+    printlnHashCode(null)
+    printlnHashCodeNotNull("")
+}
+
+//  可空类型的扩展方法
+fun String?.isNullOrBlank(): Boolean {
+    //  不过由于可能存在 null 的可能性，所以必须要有显示的非空检查
+    return this == null || this.isBlank()
+}
+
+//  Kotlin 中所以泛型类和泛型函数的类型参数默认都是可空的
+fun <T> printlnHashCode(t: T) {
+    println(t?.hashCode())
+}
+
+//  为类型参数添加非空上界后，现在的 T 就不是可空的了
+fun <T: Any> printlnHashCodeNotNull(t: T) {
+    println(t.hashCode())
 }
