@@ -1,5 +1,7 @@
 package com.kotlin.`in`.action.higherOrderFun
 
+import com.kotlin.`in`.action.operator.Per
+
 //  声明高阶函数
 //  高阶函数就是以另一个函数作为参数或者返回值的函数
 //  在 Kotlin 中函数可以用 Lambda 或者函数引用来表示
@@ -90,10 +92,10 @@ fun foo(callback: (() -> Unit)?) {
 }
 
 fun <T> Collection<T>.collectionJoinToStringCanNull(separator: CharSequence = ", ",
-                                             prefix: CharSequence = "",
-                                             postfix: CharSequence = "",
-                                             //  这里传递进来一个可空的函数类型
-                                             transform: ((T) -> String)? = null): String {
+                                                    prefix: CharSequence = "",
+                                                    postfix: CharSequence = "",
+        //  这里传递进来一个可空的函数类型
+                                                    transform: ((T) -> String)? = null): String {
     val result = StringBuilder(prefix)
 
     for ((index, value) in this.withIndex()) {
@@ -105,6 +107,46 @@ fun <T> Collection<T>.collectionJoinToStringCanNull(separator: CharSequence = ",
     result.append(postfix)
     return result.toString()
 }
+
+//  8.1.5 返回函数的函数
+
+enum class Delivery { STANDARD, EXPEDITED }
+
+class Order(val itemCount: Int)
+
+//  返回一个接收 Order 返回 Double 的函数
+fun getShippingCostCalculator(delivery: Delivery): (Order) -> Double {
+    if (delivery == Delivery.EXPEDITED) {
+        return { order -> 6 + 2.1 * order.itemCount }
+    }
+    //  要返回一个函数，需要写一个 return 表达式，跟上一个 Lambda、一个成员引用，或者其他的函数类型的表达式。
+    return { order -> 2.1 * order.itemCount }
+}
+
+//  另一个返回函数的函数的例子
+
+data class Person(
+        val firstName: String,
+        val lastName: String,
+        val phoneNumber: String?
+)
+
+class ContactListFilters {
+    var prefix: String = ""
+    var onlyWithPhoneNumber: Boolean = false
+
+    fun getPredicate(): (Person) -> Boolean {
+        val startWithPrefix = { p: Person ->
+            p.firstName.startsWith(prefix) || p.lastName.startsWith(prefix) }
+        if (!onlyWithPhoneNumber) {
+            return startWithPrefix
+        }
+        return { startWithPrefix(it) && it.phoneNumber != null }
+    }
+}
+
+//  8.1.6 通过 Lambda 去除重复的代码
+
 
 fun main(args: Array<String>) {
     val url = "https://kotl.in"
@@ -126,10 +168,24 @@ fun main(args: Array<String>) {
     //  使用函数类默认值
     println(list.collectionJoinToString())
     //  指定函数式值
-    println(list.collectionJoinToString(separator = " & ") { it.toUpperCase() } )
+    println(list.collectionJoinToString(separator = " & ") { it.toUpperCase() })
 
-    foo {  }
+    foo { }
     foo { println("A") }
 
     println(list.collectionJoinToStringCanNull())
+
+    //  使用返回函数的函数
+    val calculator = getShippingCostCalculator(Delivery.EXPEDITED)
+    println(calculator(Order(1)))
+
+    val contacts = listOf(Person("Dd", "Jj", "123"),
+            Person("Gz", "ww", "12223"),
+            Person("Jaaa", "elu", "9809"))
+    val contactListFilters = ContactListFilters()
+    with(contactListFilters) {
+        prefix = "Ja"
+        onlyWithPhoneNumber = true
+    }
+    println(contacts.filter(contactListFilters.getPredicate()))
 }
