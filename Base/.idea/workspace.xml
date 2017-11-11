@@ -50,38 +50,28 @@
       <file leaf-file-name="Statement.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/Statement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3325">
-              <caret line="175" column="36" lean-forward="false" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
+            <state relative-caret-position="745">
+              <caret line="189" column="23" lean-forward="true" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InlineFunction.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_Collections.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Collections.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="614" column="9" lean-forward="false" selection-start-line="614" selection-start-column="9" selection-end-line="614" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InlineFunction.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/InlineFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InlineFunction.decompiled.java" pinned="false" current-in-tab="true">
-        <entry file="dummy://kotlinDecompiled/InlineFunction.decompiled.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InlineFunction.decompiled.java" pinned="false" current-in-tab="false">
-        <entry file="dummy://kotlinDecompiled/InlineFunction.decompiled.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="149">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,6 +126,7 @@
       <find>MutableList</find>
       <find>ArrayList</find>
       <find>joinToString</find>
+      <find>filter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -562,8 +553,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/With&amp;Apply.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/lambda/第五章小结" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/coroutine/common/Log.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/coroutine/common/Https.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/coroutine/common/HttpService.kt" />
@@ -612,6 +601,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/InJava.java" />
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Collections.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/Statement.kt" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/collections/Sequences.kt" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Sequences.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/InlineFunction.kt" />
       </list>
     </option>
@@ -628,7 +619,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -699,8 +690,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -786,7 +775,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -809,6 +797,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1089,12 +1080,14 @@
       <workItem from="1509622181151" duration="5416000" />
       <workItem from="1510040423759" duration="215000" />
       <workItem from="1510040681644" duration="9386000" />
-      <workItem from="1510142569126" duration="1905000" />
+      <workItem from="1510142569126" duration="3989000" />
+      <workItem from="1510197698485" duration="599000" />
+      <workItem from="1510395069818" duration="1220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265274000" />
+    <option name="totallyTimeSpent" value="269177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1106,7 +1099,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1116,13 +1109,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35927504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36300638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1134,6 +1126,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
@@ -1170,14 +1163,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/coroutine/Coroutines.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/coroutines/experimental/SequenceBuilder.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/mooc/coroutine/demo/SeqMain.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1443,21 +1428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="2036" column="27" lean-forward="false" selection-start-line="2036" selection-start-column="27" selection-end-line="2036" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/Statement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3325">
-          <caret line="175" column="36" lean-forward="false" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/InJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1468,10 +1438,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/kotlin/collections/Sequences.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="89" column="83" lean-forward="false" selection-start-line="89" selection-start-column="83" selection-end-line="89" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Sequences.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="810" column="0" lean-forward="false" selection-start-line="810" selection-start-column="0" selection-end-line="812" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/Statement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="189" column="23" lean-forward="true" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="614" column="9" lean-forward="false" selection-start-line="614" selection-start-column="9" selection-end-line="614" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/in/action/higherOrderFun/InlineFunction.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="149">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

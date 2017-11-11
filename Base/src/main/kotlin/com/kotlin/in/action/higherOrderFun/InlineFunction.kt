@@ -44,6 +44,36 @@ class LockOwner(private val lock:Lock) {
     }
 }
 
+//  8.2.2 内联函数的限制
+
+//  由于不是所有的 Lambda 函数都可以被内联，当函数内敛的时候，作为参数的 Lambda 表达式的函数会直接替换掉最终生成代码中。
+//  这也限制了函数体中对应的（Lambda）参数的使用，如果（Lambda）参数被调用，这样的代码能被容易地内联。
+//  但如果（Lambda）在某个地方被保存起来了，以便后面继续使用，Lambda 表达式的代码将不能被内联。
+
+//  例如系统提供的这个函数，它没有直接调用作为 transform 参数传递进来的函数，而是将这个函数传递给了一个类的构造，构造方
+//  法将它保存在一个属性中，所以 transform 需要被编译为标准的非内联的表示法，即一个实现了函数接口的匿名类。
+fun <T, R> Sequence<T>.map(transform: (T) -> R): Sequence<R> {
+    return TransformingSequence(this, transform)
+}
+
+//  如果一个函数期望两个或者更多 Lambda 参数，可以选择只内联一些参数。
+inline fun foo(inlined: () -> Unit, noinline noinlined: () -> Unit) {
+
+}
+
+//  8.2.3 内联集合操作
+
+//  如：在 Kotlin 中 filter 被声明成了内联函数，这意味着 filter 函数，以及传递给它的 Lambda 的字节码会被直接一起内联到
+//  filter 被调用的地方。
+
+//  如果有大量元素需要处理，那么需要考虑中间集合带来的运行开销，这时可以使用序列来替代集合，但用处理序列的 Lambda 没有
+//  被内联。
+
+//  尽量只有处理大数据两的时候才考虑 asSequence。
+
+//  编译器支持内联跨模块的函数或者第三方的函数。
+//  可以在 Java 中调用绝大多数内联函数的时候，但这些调用并不会被内联，而是被便衣成普通的函数调用。
+
 fun main(args: Array<String>) {
     val l = Lock()
     synchronized(l) {
