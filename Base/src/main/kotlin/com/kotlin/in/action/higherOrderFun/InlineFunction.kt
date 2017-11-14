@@ -1,6 +1,8 @@
 package com.kotlin.`in`.action.higherOrderFun
 
 import sun.misc.Lock
+import java.io.BufferedReader
+import java.io.FileReader
 
 
 //  内联函数：消除 Lambda 带来的运行时开销
@@ -24,7 +26,7 @@ inline fun <T> synchronized(lock: Lock, action: () -> T): T {
     }
 }
 
-class LockOwner(private val lock:Lock) {
+class LockOwner(private val lock: Lock) {
 
     fun runUnderLock(body: () -> Unit) {
         //  传递一个函数类型的变量作为参数
@@ -74,6 +76,36 @@ inline fun foo(inlined: () -> Unit, noinline noinlined: () -> Unit) {
 //  编译器支持内联跨模块的函数或者第三方的函数。
 //  可以在 Java 中调用绝大多数内联函数的时候，但这些调用并不会被内联，而是被便衣成普通的函数调用。
 
+//  8.2.4 决定何时将函数声明成内联
+
+//  使用 inline 关键字只能提高带有 Lambda 参数的函数的性能。
+
+//  对于普通的函数调用，JVM 已经提供了强大的内联支持。
+
+//  在使用 inline 关键字时，应该注意代码的长度，把一些和 Lambda 无关的方法抽取到一个独立非内联函数中，从而减少字节码拷贝
+//  长度。
+
+//  8.2.5 使用内联 Lambda 管理资源
+
+//  Lambda 可以去除重复代码的一个常见模式是资源管理：先获取一个资源，完成一个操作，然后释放资源。
+
+//  需要加锁的代码被抽取到一个独立的方法中
+fun <T> Lock.withLock(action: () -> T): T {
+    lock()
+    try {
+        return action()
+    } finally {
+        unlock()
+    }
+}
+
+//  也可以使用 use 函数作资源管理
+fun readFirstLineFromFile(path: String): String {
+    BufferedReader(FileReader(path)).use { br ->
+        return br.readLine()
+    }
+}
+
 fun main(args: Array<String>) {
     val l = Lock()
     synchronized(l) {
@@ -86,5 +118,10 @@ fun main(args: Array<String>) {
         println("J")
     } finally {
         l.unlock()
+    }
+
+    l.withLock {
+        //  在加锁的情况下执行指定的操作
+        println("啦啦啦啦啦啦")
     }
 }
