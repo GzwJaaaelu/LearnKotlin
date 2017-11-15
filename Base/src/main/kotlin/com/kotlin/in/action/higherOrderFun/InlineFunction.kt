@@ -54,9 +54,9 @@ class LockOwner(private val lock: Lock) {
 
 //  例如系统提供的这个函数，它没有直接调用作为 transform 参数传递进来的函数，而是将这个函数传递给了一个类的构造，构造方
 //  法将它保存在一个属性中，所以 transform 需要被编译为标准的非内联的表示法，即一个实现了函数接口的匿名类。
-fun <T, R> Sequence<T>.map(transform: (T) -> R): Sequence<R> {
-    return TransformingSequence(this, transform)
-}
+//fun <T, R> Sequence<T>.map(transform: (T) -> R): Sequence<R> {
+//    return TransformingSequence(this, transform)
+//}
 
 //  如果一个函数期望两个或者更多 Lambda 参数，可以选择只内联一些参数。
 inline fun foo(inlined: () -> Unit, noinline noinlined: () -> Unit) {
