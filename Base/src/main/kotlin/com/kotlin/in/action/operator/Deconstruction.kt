@@ -55,3 +55,14 @@ fun printMap(map: Map<String, String>) {
         val value = e.component2()
     }
 }
+
+class A() {
+
+    init {
+        println("Init")
+    }
+
+    constructor(c: String) {
+
+    }
+}

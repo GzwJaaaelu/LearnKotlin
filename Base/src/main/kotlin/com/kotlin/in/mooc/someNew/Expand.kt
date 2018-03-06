@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     //  操作符的拓展
     println("Jaaaelu " * 8)
 
-    println("abc".test)
+    println("".test)
     println("abc".testVar)
 }
 
